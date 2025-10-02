@@ -69,12 +69,12 @@ class ESRIDataLoader:
             # Convert GeoJSON to GeoDataFrame
             gdf = gpd.GeoDataFrame.from_features(data['features'])
 
-            # Extract useful properties
-            gdf['magnitude'] = gdf['mag']
-            gdf['place'] = gdf['place']
-            gdf['time'] = pd.to_datetime(gdf['time'], unit='ms')
-            gdf['url'] = gdf['url']
-            gdf['depth_km'] = gdf['depth']
+            # Extract useful properties with safe defaults
+            gdf['magnitude'] = gdf.get('mag', 0)
+            gdf['place'] = gdf.get('place', 'Unknown')
+            gdf['time'] = pd.to_datetime(gdf.get('time', 0), unit='ms')
+            gdf['url'] = gdf.get('url', '')
+            gdf['depth_km'] = gdf.get('depth', 0)
             gdf['data_type'] = 'earthquake'
             gdf['data_source'] = 'USGS Earthquake Catalog'
 

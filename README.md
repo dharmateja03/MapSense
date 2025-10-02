@@ -35,7 +35,7 @@ streamlit run app.py
 
 The app will open in your browser at `http://localhost:8501`
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Chat Interface
 ![Chat Interface](screenshots/chat.png)
@@ -129,7 +129,7 @@ print(response['answer'])
 └───────────────────────────────────┘
 ```
 
-## 📝 Usage
+##  Usage
 
 ### Example Queries
 
@@ -182,7 +182,7 @@ ACCIDENT_LIMIT=2000
 DEMOGRAPHICS_LIMIT=100
 ```
 
-## 📊 Data Sources
+##  Data Sources
 
 | Domain | Source | API | Update Frequency |
 |--------|--------|-----|------------------|
