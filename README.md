@@ -25,7 +25,7 @@ A production-ready **Retrieval-Augmented Generation (RAG)** system for answering
 - (Optional) Mistral AI API key for LLM-powered answers - **Get it FREE at [console.mistral.ai](https://console.mistral.ai/)**
 
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Run the Streamlit App
 
@@ -38,15 +38,15 @@ The app will open in your browser at `http://localhost:8501`
 ##  Screenshots
 
 ### Chat Interface
-![Chat Interface](screenshots/chat.png)
+![Chat Interface](screenshots/image.png)
 *Natural language queries with Mistral AI-powered answers*
 
 ### Interactive Map
-![Interactive Map](screenshots/map.png)
+![Interactive Map](screenshots/imagecopy.png)
 *Real-time earthquake and accident data visualization*
 
 ### Statistics Dashboard
-![Statistics](screenshots/stats.png)
+![Statistics](screenshots/imagecopy2.png)
 *Data analytics with charts and metrics*
 
 ### Test Individual Components
